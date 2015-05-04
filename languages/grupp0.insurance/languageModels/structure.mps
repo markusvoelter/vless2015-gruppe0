@@ -39,6 +39,11 @@
     <property role="TrG5h" value="Entity" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4pE1_A5qq35" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="base" />
+      <ref role="20lvS9" node="1WI6CDSK7kL" resolve="Entity" />
+    </node>
     <node concept="1TJgyj" id="1WI6CDSKcJs" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="attributes" />
@@ -74,6 +79,16 @@
       <property role="20kJfa" value="cond" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4pE1_A5slYe">
+    <property role="TrG5h" value="EntityType" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="1TJgyj" id="4pE1_A5slYf" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="entity" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1WI6CDSK7kL" resolve="Entity" />
     </node>
   </node>
 </model>
