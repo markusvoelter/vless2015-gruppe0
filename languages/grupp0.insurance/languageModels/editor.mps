@@ -51,6 +51,11 @@
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="24kQdi" id="1WI6CDSK7Yl">
     <ref role="1XX52x" to="ssnh:1WI6CDSK7kL" resolve="Entity" />
@@ -112,6 +117,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1WI6CDSKGdv">
+    <property role="3GE5qa" value="stopft" />
     <ref role="1XX52x" to="ssnh:1WI6CDSKGd1" resolve="Rule" />
     <node concept="3EZMnI" id="1WI6CDSKGiE" role="2wV5jI">
       <node concept="l2Vlx" id="1WI6CDSKGiF" role="2iSdaV" />
@@ -127,6 +133,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4pE1_A5spMd">
+    <property role="3GE5qa" value="stopft.bla" />
     <ref role="1XX52x" to="ssnh:4pE1_A5slYe" resolve="EntityType" />
     <node concept="3EZMnI" id="4pE1_A5sRAO" role="2wV5jI">
       <node concept="l2Vlx" id="4pE1_A5sRAP" role="2iSdaV" />
