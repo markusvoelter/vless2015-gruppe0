@@ -134,7 +134,7 @@
   </registry>
   <node concept="1YbPZF" id="1WI6CDSKNrx">
     <property role="TrG5h" value="typeof_Rule" />
-    <property role="3GE5qa" value="stopft" />
+    <property role="3GE5qa" value="" />
     <node concept="3clFbS" id="1WI6CDSKNry" role="18ibNy">
       <node concept="1ZobV4" id="1WI6CDSKNMx" role="3cqZAp">
         <node concept="mw_s8" id="1WI6CDSKNMT" role="1ZfhKB">

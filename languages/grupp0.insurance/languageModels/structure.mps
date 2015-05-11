@@ -42,16 +42,16 @@
     <property role="TrG5h" value="Entity" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4pE1_A5qq35" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="base" />
-      <ref role="20lvS9" node="1WI6CDSK7kL" resolve="Entity" />
-    </node>
     <node concept="1TJgyj" id="1WI6CDSKcJs" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="attributes" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1WI6CDSKcJp" resolve="Attribute" />
+    </node>
+    <node concept="1TJgyj" id="5QllRbNApTf" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="base" />
+      <ref role="20lvS9" node="5QllRbNApTb" resolve="BaseRef" />
     </node>
     <node concept="PrWs8" id="1WI6CDSK7kO" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -73,7 +73,7 @@
   <node concept="1TIwiD" id="1WI6CDSKGd1">
     <property role="TrG5h" value="Rule" />
     <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="stopft" />
+    <property role="3GE5qa" value="" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1WI6CDSKGd2" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -87,11 +87,21 @@
   </node>
   <node concept="1TIwiD" id="4pE1_A5slYe">
     <property role="TrG5h" value="EntityType" />
-    <property role="3GE5qa" value="stopft.bla" />
+    <property role="3GE5qa" value="" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
     <node concept="1TJgyj" id="4pE1_A5slYf" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="entity" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1WI6CDSK7kL" resolve="Entity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5QllRbNApTb">
+    <property role="TrG5h" value="BaseRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5QllRbNApTc" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="base" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1WI6CDSK7kL" resolve="Entity" />
     </node>

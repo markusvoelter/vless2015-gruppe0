@@ -9,11 +9,14 @@
   <imports />
   <registry>
     <language id="619f1129-5a16-45b7-9ecf-b3baac686287" name="grupp0.insurance">
+      <concept id="6743392168282005067" name="grupp0.insurance.structure.BaseRef" flags="ng" index="2I3c$T">
+        <reference id="6743392168282005068" name="base" index="2I3c$Y" />
+      </concept>
       <concept id="5073874911746940814" name="grupp0.insurance.structure.EntityType" flags="ig" index="336PBn">
         <reference id="5073874911746940815" name="entity" index="336PBm" />
       </concept>
       <concept id="2246762446138144049" name="grupp0.insurance.structure.Entity" flags="ng" index="1BVAYV">
-        <reference id="5073874911746433221" name="base" index="330Uqs" />
+        <child id="6743392168282005071" name="base" index="2I3c$X" />
         <child id="2246762446138166236" name="attributes" index="1BVH5m" />
       </concept>
       <concept id="2246762446138166233" name="grupp0.insurance.structure.Attribute" flags="ng" index="1BVH5j">
@@ -32,7 +35,6 @@
   </registry>
   <node concept="1BVAYV" id="1WI6CDSK9xN">
     <property role="TrG5h" value="Person" />
-    <ref role="330Uqs" node="4pE1_A5pfpP" resolve="Auto" />
     <node concept="1BVH5j" id="1WI6CDSKiGR" role="1BVH5m">
       <property role="TrG5h" value="firstName" />
       <node concept="17QB3L" id="1WI6CDSKGcY" role="1BVN7o" />
@@ -54,10 +56,18 @@
         <ref role="336PBm" node="1WI6CDSK9xN" resolve="Person" />
       </node>
     </node>
+    <node concept="1BVH5j" id="5QllRbN$Mi7" role="1BVH5m">
+      <property role="TrG5h" value="lkjlk" />
+      <node concept="336PBn" id="5QllRbN$PZB" role="1BVN7o">
+        <ref role="336PBm" node="1WI6CDSK9xN" resolve="Person" />
+      </node>
+    </node>
   </node>
   <node concept="1BVAYV" id="4pE1_A5qq2X">
     <property role="TrG5h" value="Student" />
-    <ref role="330Uqs" node="1WI6CDSK9xN" resolve="Person" />
+    <node concept="2I3c$T" id="5QllRbNAJvG" role="2I3c$X">
+      <ref role="2I3c$Y" node="1WI6CDSK9xN" resolve="Person" />
+    </node>
   </node>
 </model>
 
