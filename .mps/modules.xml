@@ -2,6 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/grupp0.expr/grupp0.expr.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/grupp0.exprWithStrings/grupp0.exprWithStrings.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/grupp0.insurance/grupp0.insurance.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/grupp0.insurance/sandbox/grupp0.insurance.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/grupp0.ts.test1/grupp0.ts.test1.msd" folder="" />

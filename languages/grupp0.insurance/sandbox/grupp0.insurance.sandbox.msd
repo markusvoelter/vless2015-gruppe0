@@ -10,8 +10,12 @@
     <usedLanguage>619f1129-5a16-45b7-9ecf-b3baac686287(grupp0.insurance)</usedLanguage>
     <usedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</usedLanguage>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
+    <usedLanguage>8ca0a3f1-13fc-41cd-a403-607fcbf54617(grupp0.expr)</usedLanguage>
+    <usedLanguage>106263dd-8085-49fe-b3d8-f3b42b4466d6(grupp0.exprWithStrings)</usedLanguage>
   </usedLanguages>
   <languageVersions>
+    <language id="8ca0a3f1-13fc-41cd-a403-607fcbf54617" fqName="grupp0.expr" version="0" />
+    <language id="106263dd-8085-49fe-b3d8-f3b42b4466d6" fqName="grupp0.exprWithStrings" version="0" />
     <language id="619f1129-5a16-45b7-9ecf-b3baac686287" fqName="grupp0.insurance" version="-1" />
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="1" />
     <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
