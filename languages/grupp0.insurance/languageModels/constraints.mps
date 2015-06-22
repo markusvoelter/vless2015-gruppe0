@@ -86,6 +86,9 @@
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -182,6 +185,33 @@
               </node>
               <node concept="1j9C0f" id="5QllRbNAH2w" role="2OqNvi">
                 <ref role="1j9C0d" to="ssnh:1WI6CDSK7kL" resolve="Entity" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7$zuc6Bf4aX">
+    <ref role="1M2myG" to="ssnh:7$zuc6BeO$T" resolve="AttrRefWord" />
+    <node concept="1N5Pfh" id="7$zuc6Bf4aY" role="1Mr941">
+      <ref role="1N5Vy1" to="ssnh:7$zuc6BeO$W" />
+      <node concept="1MUpDS" id="7$zuc6Bf4bA" role="1N6uqs">
+        <node concept="3clFbS" id="7$zuc6Bf4bB" role="2VODD2">
+          <node concept="3clFbF" id="7$zuc6Bf9sX" role="3cqZAp">
+            <node concept="2OqwBi" id="7$zuc6Bfa4n" role="3clFbG">
+              <node concept="2OqwBi" id="7$zuc6Bf9Nz" role="2Oq$k0">
+                <node concept="21POm0" id="7$zuc6Bf9sW" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="7$zuc6Bf9Zj" role="2OqNvi">
+                  <node concept="1xMEDy" id="7$zuc6Bf9Zl" role="1xVPHs">
+                    <node concept="chp4Y" id="7$zuc6Bfa0u" role="ri$Ld">
+                      <ref role="cht4Q" to="ssnh:1WI6CDSK7kL" resolve="Entity" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="7$zuc6Bfaf6" role="2OqNvi">
+                <ref role="3TtcxE" to="ssnh:1WI6CDSKcJs" />
               </node>
             </node>
           </node>

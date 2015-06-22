@@ -7,6 +7,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="8ca0a3f1-13fc-41cd-a403-607fcbf54617" name="grupp0.expr" version="-1" />
     <use id="106263dd-8085-49fe-b3d8-f3b42b4466d6" name="grupp0.exprWithStrings" version="-1" />
+    <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
   </languages>
   <imports />
   <registry>
@@ -22,8 +23,12 @@
       <concept id="5073874911746940814" name="grupp0.insurance.structure.EntityType" flags="ig" index="336PBn">
         <reference id="5073874911746940815" name="entity" index="336PBm" />
       </concept>
+      <concept id="8728953275903854905" name="grupp0.insurance.structure.AttrRefWord" flags="ng" index="3u637S">
+        <reference id="8728953275903854908" name="attr" index="3u637X" />
+      </concept>
       <concept id="2246762446138144049" name="grupp0.insurance.structure.Entity" flags="ng" index="1BVAYV">
         <child id="6743392168282005071" name="base" index="2I3c$X" />
+        <child id="8728953275903554965" name="documentation" index="3u5sPk" />
         <child id="2246762446138166236" name="attributes" index="1BVH5m" />
       </concept>
       <concept id="2246762446138166233" name="grupp0.insurance.structure.Attribute" flags="ng" index="1BVH5j">
@@ -33,6 +38,14 @@
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+    </language>
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
+        <child id="2557074442922392302" name="words" index="19SJt6" />
+      </concept>
+      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -116,6 +129,17 @@
       <property role="TrG5h" value="lkjlk" />
       <node concept="336PBn" id="5QllRbN$PZB" role="1BVN7o">
         <ref role="336PBm" node="1WI6CDSK9xN" resolve="Person" />
+      </node>
+    </node>
+    <node concept="19SGf9" id="7$zuc6BeFcq" role="3u5sPk">
+      <node concept="19SUe$" id="7$zuc6BeFcr" role="19SJt6">
+        <property role="19SUeA" value="Hier halt einfach Text eingeben: " />
+      </node>
+      <node concept="3u637S" id="7$zuc6Bf4ax" role="19SJt6">
+        <ref role="3u637X" node="4pE1_A5pfpQ" resolve="besitzer" />
+      </node>
+      <node concept="19SUe$" id="7$zuc6Bf4ay" role="19SJt6">
+        <property role="19SUeA" value=" weitertippen." />
       </node>
     </node>
   </node>
